@@ -1,0 +1,30 @@
+body{
+  background-image: url("oklm.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  color: white;
+
+}
+#col1{
+  background-color:;
+
+}
+
+.karim {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.card {
+  background: black;
+  border-width: 2px;
+  border-color: orange;
+}
+
+.card-title{
+  color: orange;
+}
+
+.row{
+  margin-left:200px;
+}
