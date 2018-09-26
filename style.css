@@ -1,13 +1,17 @@
 body{
-  background-image: url("oklm.jpg");
-  background-size: cover;
+  background-color: #424b5a;
   padding-top: 100px;
   color: white;
+  font-size: 22px
 
 }
 #col1{
   background-color:;
 
+}
+
+article{
+  font-size: 22px
 }
 
 .karim {
@@ -16,15 +20,58 @@ body{
 }
 
 .card {
-  background: black;
+  background: grey;
   border-width: 2px;
-  border-color: orange;
+  border-color: black;
 }
 
 .card-title{
-  color: orange;
+  color: black;
+  font-size: 40px
 }
 
-.row{
-  margin-left:200px;
+.black{
+  font-size: 20px
+}
+
+.row h2{
+	text-align: center;
+	font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #F94;
+}
+
+.row h1{
+  text-align: center;
+  font-size: 40px
+
+}
+
+.row p{
+  text-align: center;
+  font-size: 22px
+}
+
+
+#formli:hover {
+  background-color: green;
+}
+
+#form:hover {
+  background-color: blue;
+}
+
+#for:hover {
+  background-color: purple;
+}
+
+#fo:hover {
+  background-color: orange;
+}
+
+#carouselExampleIndicators img{
+  height: 200px;
+  width: 100%;
+
 }
