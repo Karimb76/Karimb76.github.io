@@ -1,16 +1,16 @@
-body{
-  background-color: #424b5a;
+body {
+  background-color: #26272a;
   padding-top: 100px;
   color: white;
   font-size: 22px
-
-}
-#col1{
-  background-color:;
-
 }
 
-article{
+.col-8.offset-5 {
+font-size: 30px
+
+}
+
+article {
   font-size: 22px
 }
 
@@ -25,30 +25,30 @@ article{
   border-color: black;
 }
 
-.card-title{
+.card-title {
   color: black;
   font-size: 40px
 }
 
-.black{
+.black {
   font-size: 20px
 }
 
-.row h2{
-	text-align: center;
-	font-size: 30px;
+.row h2 {
+  text-align: center;
+  font-size: 30px;
   padding-bottom: 20px;
   padding-top: 20px;
-  color: #F94;
+  color: black;
 }
 
-.row h1{
+.row h1 {
   text-align: center;
-  font-size: 40px
-
+  font-size: 40px;
+  color: black;
 }
 
-.row p{
+.row p {
   text-align: center;
   font-size: 22px
 }
@@ -70,8 +70,31 @@ article{
   background-color: orange;
 }
 
-#carouselExampleIndicators img{
+#carouselExampleIndicators img {
   height: 200px;
   width: 100%;
+}
 
+.border {
+  border: 4px solid #000 !important;
+}
+
+.bleu1 {
+  background-color: #393939;
+}
+
+.bleu2 {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.progress {
+  width: 60%;
+}
+
+.col.border {
+  background-color: #393939;
 }
