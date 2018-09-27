@@ -10,6 +10,10 @@ font-size: 30px
 
 }
 
+.card-body {
+background: blue
+}
+
 article {
   font-size: 22px
 }
@@ -70,11 +74,6 @@ article {
   background-color: orange;
 }
 
-#carouselExampleIndicators img {
-  height: 200px;
-  width: 100%;
-}
-
 .border {
   border: 4px solid #000 !important;
 }
@@ -97,4 +96,13 @@ article {
 
 .col.border {
   background-color: #393939;
+}
+
+p {
+color: #6bf341;
+font-style: oblique;
+}
+
+h1 {
+font-style: italic;
 }
