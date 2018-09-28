@@ -11,7 +11,7 @@ font-size: 30px
 }
 
 .card-body {
-background: blue
+background: #747474;
 }
 
 article {
@@ -30,7 +30,7 @@ article {
 }
 
 .card-title {
-  color: black;
+  color: #b0ed6f;
   font-size: 40px
 }
 
@@ -51,6 +51,7 @@ article {
   font-size: 40px;
   color: black;
 }
+
 
 .row p {
   text-align: center;
@@ -100,9 +101,32 @@ article {
 
 p {
 color: #6bf341;
-font-style: oblique;
+font-style: Arial, sans-serif;
 }
 
 h1 {
 font-style: italic;
+margin-top: 13px;
+
+}
+#Compétences:target{
+  padding-top: 3em; margin-top: -2em
+}
+
+#Loisirs:target{
+  padding-top: 3em; margin-top: -2em
+}
+
+#job:target{
+  padding-top: 3em; margin-top: -2em
+}
+
+#Formation:target{
+  padding-top: 3em; margin-top: -2em
+}
+
+h5 {
+font-style: oblique;
+
+
 }

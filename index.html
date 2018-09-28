@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
   <title>Curriculum Vitae</title>
 </head>
@@ -13,20 +14,20 @@
   <header>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#" id="for">Compétences</a>
+      <a class="navbar-brand" href="#Compétences" id="for">Compétences</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active" id="formli">
-            <a class="nav-link" href="#">Formations<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#Formation">Formations<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item" id="form">
-            <a class="nav-link" href="#">Expérience professionnelles</a>
+          <li class="nav-item active" id="form">
+            <a class="nav-link" href="#job">Expérience professionnelles</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" id="fo">Loisirs</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Loisirs" id="fo">Loisirs</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
@@ -35,20 +36,21 @@
       </div>
     </nav>
   </header>
+
   <div class="container-fluid">
     <div class="container">
       <div class="col border bleu2 mb-5" style="padding:0;">
-        <h1 class="text-center">Objectifs</h1>
+        <h1 class="text-center">Objectifs &#9812;</h1>
         <div class="text-center mx-auto w-100">
           <p>Integrer une équipe de developpement web pour créer des applications web et mobiles</p>
         </div>
       </div>
     </div>
     <div class="col border bleu1 mb-5" style="padding:0;">
-      <h1 class="text-center">Formations</h1>
+      <h1 class="text-center" id="Formation">Formations &#9998;</h1>
       <div class="row mx-auto w-100">
         <div class="w-50" id="K">
-          <p>• Développeur Web</p>
+          <p>• Formation E2N</p>
           <p>• Bts immobilier</p>
         </div>
         <div class="w-50" id="K2">
@@ -58,9 +60,9 @@
       </div>
     </div>
     <div class="col border bleu2 mb-5" style="padding:0;">
-      <h1 class="text-center">Expérience professionnelles</h1>
+      <h1 class="text-center" id="job">Expérience professionnelles &#10004;</h1>
       <div class="text-center mx-auto w-100">
-        <p>Création de publicité sur logic immo pro</p>
+        <p>Création de publicité sur logic-immo pro</p>
         <p>Fiche comptabilité pour une PME</p>
         <p>Gérance d'un commerce</p>
       </div>
@@ -68,30 +70,36 @@
     <div class="col border bleu1 mb-5" style="padding:0;">
       <h1 class="text-center">Coordonnées</h1>
       <div class="text-center mx-auto w-100">
-        <p>Téléphone→ 06.27.39.62.88 &#x260E;</p>
-        <p>Email→ karim.bellet@gmail.com ✉</p>
-        <p>GitHub→ Karimb76 ⌨</p>
+        <p><i class="fas fa-phone"></i> Téléphone→ 06.27.39.62.88</p>
+        <p> <i class="fas fa-envelope"></i> Email→ karim.bellet@gmail.com</p>
+        <p> <i class="fas fa-map-marker-alt"></i> Adresse→ 11 rue arthur honegger </p>
+        <p> <i class="fab fa-github"></i> GitHub→
+          <a href="https://github.com/Karimb76" title="Lien vers github">Karimb76</a>
+          <br>
+
+          <i class= "fab fa-linkedin-in"> →</i>
+          <a href="https://www.linkedin.com/in/bellet-karim-312ba3171/" title="Lien vers linkedin"> linkedin</a>
+
+        </p>
       </div>
-
-
-
+       <br>
     <div class="container-fluid">
-      <div class="container text-center">
+      <div class="container text-center"id="Compétences">
         <div class="col border bleu2 mb-5 pb-5" style="padding:0;">
           <h1>Skills &#x2620;</h1>
-          <p>HTML5</p>
+          <p>HTML<i class="fab fa-html5"></i></p>
           <div class="progress mx-auto" style="height: 1.5rem">
             <div class="karim progress-bar progress-bar-striped progress-bar-animated bg-success"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
           </div>
-          <p>Css3</p>
+          <p>Css<i class="fab fa-css3-alt"></i></p>
           <div class="progress mx-auto" style="height: 1.5rem">
             <div class="karim progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
           </div>
-          <p>Bootstrap</p>
+          <p>Bootstrap <i class="fas fa-robot"></i></p>
           <div class="progress mx-auto" style="height: 1.5rem">
             <div class="karim progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
           </div>
-          <p>Github</p>
+          <p>Github <i class="fas fa-code-branch"></i></p>
           <div class="progress mx-auto" style="height: 1.5rem">
             <div class="karim progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
           </div>
@@ -99,7 +107,7 @@
       </div>
     </div>
     <div class="col border bleu2 mb-5" style="padding:0;">
-      <h1 class="text-center">Loisirs &#x269B;</h1>
+      <h1 class="text-center" id="Loisirs">Loisirs &#9738;</h1>
       <div class="text-center mx-auto w-100">
         <div class="card-group">
           <div class="card">
